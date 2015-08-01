@@ -61,9 +61,9 @@ describe('strain', function() {
     expect(result).toEqual('apple banana cherimoya'.split(' '));
   });
 
-  it('discards arrays', function() {
-    var rows = [
-      [1, 2, 3],
+  it('discards arrays', function() {[
+
+    var rows =       [1, 2, 3],
       [5, 5, 5],
       [5, 1, 2],
       [2, 1, 2],
